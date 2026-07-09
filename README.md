@@ -1,2 +1,3 @@
-# python
+# Python
+
 Learn and code python
