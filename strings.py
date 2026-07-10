@@ -1,0 +1,18 @@
+test_text = "Hello, World! This is a test string for string operations."
+
+print("Original String:", test_text)
+print("Length of String:", len(test_text))
+print("Uppercase:", test_text.upper())
+print("Lowercase:", test_text.lower())
+print("Title Case:", test_text.title())
+print("Split:", test_text.split())
+print("Replace 'test' with 'sample':", test_text.replace("test", "sample"))
+print("Find 'World':", test_text.find("World"))
+print("Count of 'is':", test_text.count("is"))
+print("Starts with 'Hello':", test_text.startswith("Hello"))
+print("Ends with 'operations.':", test_text.endswith("operations."))
+print("Is Alphanumeric:", test_text.isalnum())
+print("Is Alphabetic:", test_text.isalpha())
+print("Slicing [0:8:1]:", test_text[0:8:1])
+print("Reversed String:", test_text[::-1])
+print("Formatted String: My name is {} and I am {} years old.".format("Chetan", 32))
